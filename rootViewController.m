@@ -27,10 +27,12 @@
     if ([segue.identifier isEqualToString:@"RedDwarfSegue"])
     {
         vc.title = @"Red Dwarf";
+        vc.planetImage = [UIImage imageNamed:@"redDwarf"];
     }
     else if ([segue.identifier isEqualToString:@"BlueStarSegue"])
     {
-      vc.title = @"Blue Star";
+        vc.title = @"Blue Star";
+        vc.planetImage = [UIImage imageNamed:@"blueStar"];
     }
 
 }

@@ -9,6 +9,7 @@
 #import "VacationViewController.h"
 
 @interface VacationViewController ()
+@property (strong, nonatomic) IBOutlet UIImageView *planetImageView;
 
 @end
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.planetImageView.image = self.planetImage;
 }
 
 - (void)didReceiveMemoryWarning {
